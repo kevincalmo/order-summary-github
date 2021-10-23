@@ -1,0 +1,96 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: url(./images/pattern-background-desktop.svg);
+}
+
+h1{
+    font-weight: 900;
+}
+h3{
+    font-weight: 700;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #373737b4;
+}
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: auto;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        background: white;
+        border-radius: 30px;
+        box-shadow: 4px 4px 30px hsl(224, 23%, 55%);
+        /* padding-inline: 1%; */
+      }
+
+      .container .img img {
+         /*  position: relative; */
+         /*  top: -10%; */
+          width: 100%;
+           border-radius: 30px 30px 0 0;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-inline: 40px;
+      }
+
+      .space {
+         margin: 12px 0 10px 0;
+          
+      }
+
+      .change{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .change a {
+          text-decoration: underline;
+      }
+
+      .change img,
+      .change div,
+      .change a {
+          padding-inline: 15px;
+      }
+
+      button {
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+          color: white;
+          font-size: 1.3rem;
+          background: hsl(245, 75%, 52%);
+          width: 100%;
+          box-shadow: 0px 5px 20px hsl(245, 75%, 52%);
+      }
+
+      .cancel {
+          /* margin: 0; */
+          color: #373737b4;
+          padding-bottom: 15px;
+      }
+
+      /* ===== MediaQueries =====*/
