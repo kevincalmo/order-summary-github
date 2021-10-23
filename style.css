@@ -73,7 +73,7 @@ p{
       .change img,
       .change div,
       .change a {
-          padding-inline: 15px;
+          padding-inline: 10px;
       }
 
       button {
